@@ -11,5 +11,6 @@ id = uuid
 ```
 
 ```sh
+# OMG Cli
 omg exec
 ```
