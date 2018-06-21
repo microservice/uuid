@@ -9,3 +9,7 @@ The output is the created UUID.
 # Storyscript
 id = uuid
 ```
+
+```sh
+omg exec
+```

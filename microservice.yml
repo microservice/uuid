@@ -1,2 +1,5 @@
-entrypoint:
-  help: Run uuid
+commands:
+  entrypoint:
+    help: 'Generates a UUID version 4'
+    output:
+      type: uuid
