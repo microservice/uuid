@@ -1,4 +1,5 @@
-commands:
+omg: 1
+actions:
   entrypoint:
     help: 'Generates a UUID version 4'
     output:
