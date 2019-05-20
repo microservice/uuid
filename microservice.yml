@@ -1,6 +1,15 @@
 omg: 1
+lifecycle:
+  startup:
+    command: ["python", "/app/app.py"]
 actions:
-  entrypoint:
-    help: 'Generates a UUID version 4'
+  generate:
+    help: |
+      Generate a UUID v4 like 38788d28-6526-45c5-acf9-bb179160c7d7
+    http:
+      path: /generate
+      method: get
+      port: 8000
+      contentType: application/json
     output:
-      type: uuid
+      type: string

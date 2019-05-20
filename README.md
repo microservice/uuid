@@ -1,16 +1,7 @@
-# UUID generator for Asyncy
+# UUID
+An OMG service to generate a UUID v4.
 
-This container should be used for creation of UUIDs.
-The output is the created UUID.
-
-#### Example
-
-```storyscript
-# Storyscript
-id = uuid
-```
-
-```sh
-# OMG Cli
-omg exec
+## Usage
+```coffeescript
+uuid generate
 ```
